@@ -1,0 +1,37 @@
+# Node dependencies
+node_modules/
+
+# Build output directories (adjust if you use a different folder)
+dist/
+build/
+out/
+
+# TypeScript build cache and info files
+*.tsbuildinfo
+
+# Source maps (if generated alongside compiled files)
+*.map
+
+# Environment files (sensitive data should not be pushed)
+.env
+.env.local
+.env.*.local
+
+# VS Code settings (local workspace settings)
+.vscode/
+
+# Log files
+*.log
+yarn-error.log
+
+# Coverage directory (if you're running tests)
+coverage/
+
+# MacOS specific files
+.DS_Store
+
+# Optional: ignore temporary files or editor backups
+*.swp
+*.swo
+
+lib.es*.d.ts
